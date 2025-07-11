@@ -1,0 +1,31 @@
+2025-07-12 02:35:43 [INFO] Starting scheduled backup process
+2025-07-12 02:35:43 [INFO] Backup type: complete, Retention: 30 days
+2025-07-12 02:35:43 [INFO] Executing pg_dump with args: -h localhost -p 5432 -U postgres -d ecommerce_db -f D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_02-35-43.sql --verbose --no-owner --no-privileges
+2025-07-12 02:35:45 [SUCCESS] Backup completed successfully
+2025-07-12 02:35:45 [INFO] File: D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_02-35-43.sql
+2025-07-12 02:35:45 [INFO] Size: 15.98 MB
+2025-07-12 02:35:45 [INFO] Backup registry updated
+2025-07-12 02:35:45 [INFO] Starting cleanup of old backups (retention: 30 days)
+2025-07-12 02:35:45 [INFO] Cleanup completed. Deleted 0 old backup(s)
+2025-07-12 02:35:45 [SUCCESS] Scheduled backup process completed successfully
+2025-07-12 03:12:34 [INFO] Starting scheduled backup process
+2025-07-12 03:12:34 [INFO] Backup type: complete, Retention: 30 days
+2025-07-12 03:12:34 [INFO] Executing pg_dump with args: -h localhost -p 5432 -U postgres -d ecommerce_db -f D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_03-12-34.sql --verbose --clean --if-exists --create --no-owner --no-privileges
+2025-07-12 03:12:34 [INFO] Backup format: Compatible with web interface restore functionality
+2025-07-12 03:12:35 [ERROR] pg_dump failed with exit code: 1
+2025-07-12 03:30:00 [INFO] Starting scheduled backup process
+2025-07-12 03:30:00 [INFO] Backup type: complete, Retention: 30 days
+2025-07-12 03:30:00 [INFO] Executing pg_dump with args: -h localhost -p 5432 -U postgres -d ecommerce_db -f D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_03-30-00.sql --verbose --clean --if-exists --create --no-owner --no-privileges
+2025-07-12 03:30:00 [INFO] Backup format: Compatible with web interface restore functionality
+2025-07-12 03:30:01 [SUCCESS] Backup completed successfully
+2025-07-12 03:30:01 [INFO] File: D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_03-30-00.sql
+2025-07-12 03:30:01 [INFO] Size: 15.98 MB
+2025-07-12 03:30:02 [ERROR] Backup failed with exception: Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
+2025-07-12 04:18:04 [INFO] Starting scheduled backup process
+2025-07-12 04:18:04 [INFO] Backup type: complete, Retention: 30 days
+2025-07-12 04:18:04 [INFO] Executing pg_dump with args: -h localhost -p 5432 -U postgres -d ecommerce_db -f D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_04-18-04.sql --verbose --clean --if-exists --create --no-owner --no-privileges
+2025-07-12 04:18:04 [INFO] Backup format: Compatible with web interface restore functionality
+2025-07-12 04:18:06 [SUCCESS] Backup completed successfully
+2025-07-12 04:18:06 [INFO] File: D:\year2\year2_term3\DatabaseAdmin\project_db(v2)\backups\scheduled_backup_2025-07-12_04-18-04.sql
+2025-07-12 04:18:06 [INFO] Size: 15.98 MB
+2025-07-12 04:18:06 [ERROR] Backup failed with exception: Method invocation failed because [System.Management.Automation.PSObject] does not contain a method named 'op_Addition'.
